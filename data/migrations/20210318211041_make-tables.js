@@ -32,7 +32,7 @@ exports.up = function(knex) {
             .notNullable()
             .references('ingredient_id')
             .inTable('ingredients')
-        tbl.string('amount', 128).notNullable()
+        tbl.string('amount', 128)
     })
 };
 

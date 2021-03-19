@@ -8,13 +8,9 @@ exports.seed = function(knex) {
         {ingredient_name: 'Italian Bread'},
         {ingredient_name: 'Mayonnaise'},
         {ingredient_name: 'Mozzarella'},
-        {ingredient_name: 'Egg(s)'},
-        {ingredient_name: 'Green Onion'},
-        {ingredient_name: 'Chives'},
-        {ingredient_name: 'Butter'},
-        {ingredient_name: 'Half & Half'},
-        {ingredient_name: 'Salt'},
-        {ingredient_name: 'Pepper'},
+        {ingredient_name: 'Bread'},
+        {ingredient_name: 'Peanut Butter'},
+        {ingredient_name: 'Jelly'},
       ]);
     });
 };

@@ -6,7 +6,7 @@ exports.seed = function(knex) {
       // Inserts seed entries
       return knex('recipes').insert([
         {recipe_name: 'Grilled Cheese'},
-        {recipe_name: 'French Creamed Eggs'}
+        {recipe_name: 'Peanut Butter & Jelly'}
       ]);
     });
 };
